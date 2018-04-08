@@ -1,0 +1,227 @@
+.navbar{
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+
+.nav a {
+    color: #404E6B !important;
+    font-size: 0.8em !important;
+    font-weight: blod !important;
+}
+
+.navbar {    
+//   background: rgb(165, 202, 62);
+    .navbar-nav li a {
+        color: lightblue;
+        &:hover {
+            color: lightblue !important;
+            background-color: transparent;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+        }
+        &:focus {
+            color: lightblue;
+            background-color: transparent;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+        }
+        &:active {
+            color: lightblue;
+            background-color: transparent;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+        }
+    }
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: gray !important;
+    font-weight: blod !important;
+}
+
+.carousel-inner{
+    width: 100%;
+    height:auto;
+    overflow: hidden !important;
+}
+
+.cooperation img{
+    height: 70px;
+    width:auto;
+    margin: 20px 0 20px 0;
+}
+
+.img-intro {
+    width: 100%;
+    height: 1000px;
+    margin-top: 20px;
+    padding: 20px 0 20px 0;
+}
+
+.img-intro .item{
+    margin-top: 20px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.item-1{
+    background-position: 0 80%;
+}
+
+.item-2{
+    background-position: 0 0%;
+}
+.item-3{
+    background-position: 0 0%;
+}
+
+.intro-item {
+    width: 30%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.intro-item h4{
+    color: #40436b;
+    font-size: 14pt;
+}
+
+.intro-item span {
+    color: gray;
+    font-size: 10pt;
+    font-weight: 200;
+}
+
+.chart-bg {
+    width:100%;
+    height:500px;
+    background:url("/storage/chartBG.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.min-width {
+    min-width: 1000px;
+}
+
+.chart-intro {
+    padding: 50px 0 20px 0;
+}
+
+.chart-bg .chart-intro img {
+    width: 10%;
+    height: auto;
+}
+
+.chart-bg .chart-intro h4 {
+    margin-top: 10px;
+    color: white;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+}
+
+.chart-bg .chart-intro span {
+    color: #dfdfdf;
+    font-size: 10pt;
+    font-weight: 200;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+}
+
+.chart-form {
+    background: white;
+    width: 80%;
+    margin: auto;
+    padding: 20px 50px 20px 50px;
+    border-radius: 3px;
+    -webkit-box-shadow: 1px 2px 4px rgba(182, 182, 182, 0.5);;
+    -moz-box-shadow: 1px 2px 4px rgba(182, 182, 182, 0.5);;
+    box-shadow: 1px 2px 4px rgba(182, 182, 182, 0.5);
+}
+
+.chart-form h6{
+    color: #40436b;
+    font-size: 14pt;
+}
+
+.chart-form span {
+    text-shadow: none !important;
+    font-size: 8px;
+    color: gray !important;
+}
+
+.chart-input {
+    padding: 20px 20px 20px 20px;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 8px;
+    text-align: center;
+}
+
+.input-type {
+    margin: auto;
+    width: 100%;
+    height: 40px;
+    background: #ECECEC;
+    border-width: 0;
+}
+
+.btn-init {
+    height: 40px;
+    width: 120px;
+    background: #404E6B;
+    border-width: 0;
+    font-size: 8px;
+}
+
+.chart-result {
+    padding:50px 0 50px 0;
+    width:80%;
+    margin: 20px auto;
+    background: white;
+    border-radius: 3px;
+    -webkit-box-shadow: 1px 2px 4px rgba(182, 182, 182, 0.5);;
+    -moz-box-shadow: 1px 2px 4px rgba(182, 182, 182, 0.5);;
+    box-shadow: 1px 2px 4px rgba(182, 182, 182, 0.5);
+}
+
+footer {
+    background: #454545;
+    width: 100%;
+    height: 150px;
+}
+
+.a {
+    background-image: url('/storage/bus1.png');
+    background-size: 100%;
+    height: 550px;
+    padding: 0 !important;
+    background-repeat: no-repeat;
+}
+
+.a img{
+    width: 100%;
+}
+
+.a h1 {
+    color: white;
+    font-weight: lighter;
+    position: absolute;
+    top: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.brightness {
+    -webkit-filter: brightness(0.80);
+    filter: brightness(0.80);
+}
